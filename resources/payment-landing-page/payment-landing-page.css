@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: var(--white);
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --light-purple: #E9DCFF;
+    --black: #1E1E1E;
+    --gray: #2B2D3D;
+    --white: #FFFFFF;
+}
+body {
+    background-color:  var(--black);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    margin: 40px 132px 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-options-list {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-options-list li a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+nav .nav-btn {
+    display: flex;
+    gap: 13px;
+}
+
+.button button {
+    width: 132px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: var(--light-purple);
+    color: var(--black);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+}
+
+main {    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 202px;
+    margin-bottom: 75px;
+}
+
+.app-intro {
+    margin-left: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-intro-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--light-purple);
+    letter-spacing: 0.22em;
+    margin-bottom: 13px;
+}
+
+.app-intro-title {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 77px;
+    color: var(--white);
+    margin-bottom: 34px;
+}
+
+.btn-download button{
+    width: 188px; 
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.app-image {
+    margin-right: 82px;
+}
